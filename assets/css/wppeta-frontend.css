@@ -1,0 +1,186 @@
+ /* Basic style */
+ 
+ .wppeta-block ul {
+     list-style: none;
+     margin-left: 0;
+     padding-left: 0;
+ }
+ 
+ .wppeta-block li {
+     list-style-type: none;
+     padding: 10px 0;
+ }
+ 
+ .wppeta-block li:first-child {
+     padding-top: 0;
+ }
+ 
+ .wppeta-block a {
+     text-decoration: none;
+ }
+ 
+ .wppeta-block a.wppeta-title {
+     overflow: hidden;
+ }
+ 
+ .wppeta-meta {
+     display: block;
+     font-size: 13px;
+     overflow: hidden;
+ }
+ 
+ .wppeta-summary {
+     line-height: 1.5;
+     padding-top: 5px;
+ }
+ 
+ .wppeta-summary p {
+     margin-bottom: 0 !important;
+ }
+ 
+ .wppeta-more-link {
+     display: block;
+     padding-top: 5px;
+ }
+ 
+ .wppeta-time {
+     display: inline-block;
+ }
+ 
+ .wppeta-comment,
+ .wppeta-author {
+     padding-left: 5px;
+     position: relative;
+ }
+ 
+ .wppeta-comment::before,
+ .wppeta-author::before {
+     content: "\00b7";
+     display: inline-block;
+     color: initial;
+     padding-right: 6px;
+ }
+ 
+ .wppeta-alignleft {
+     display: inline;
+     float: left;
+     margin-right: 12px;
+ }
+ 
+ .wppeta-alignright {
+     display: inline;
+     float: right;
+     margin-left: 12px;
+ }
+ 
+ .wppeta-aligncenter {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 10px;
+ }
+ 
+ .wppeta-clearfix:before,
+ .wppeta-clearfix:after {
+     content: "";
+     display: table !important;
+ }
+ 
+ .wppeta-clearfix:after {
+     clear: both;
+ }
+ 
+ .wppeta-clearfix {
+     zoom: 1;
+ }
+ 
+ .wppeta-classic-style li {
+     padding: 10px 0 !important;
+     border-bottom: 1px solid #f0f0f0 !important;
+     margin-bottom: 5px !important;
+ }
+ 
+ .wppeta-classic-style li:first-child {
+     padding-top: 0 !important;
+ }
+ 
+ .wppeta-classic-style li:last-child {
+     border-bottom: 0 !important;
+     padding-bottom: 0 !important;
+ }
+ 
+ .wppeta-classic-style .wppeta-meta {
+     color: #888 !important;
+     font-size: 12px !important;
+     padding: 3px 0 !important;
+ }
+ 
+ .wppeta-classic-style .wppeta-summary {
+     display: block;
+     clear: both;
+ }
+ /* Modern style */
+ 
+ .wppeta-modern-style li {
+     position: relative !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-img {
+     position: relative !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-img::after {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     content: '';
+     opacity: .5;
+     background: #000;
+ }
+ 
+ .wppeta-modern-style .wppeta-meta {
+     font-size: 12px !important;
+     padding: 3px 0 !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-comment::before,
+ .wppeta-modern-style .wppeta-author::before {
+     color: #fff;
+ }
+ 
+ .wppeta-modern-style .wppeta-content {
+     position: absolute;
+     bottom: 10px;
+     left: 0;
+     padding: 20px;
+ }
+ 
+ .wppeta-modern-style .wppeta-content a {
+     color: #fff !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-content a:hover {
+     text-decoration: underline !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-content {
+     color: #ccc !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-content .wppeta-title {
+     text-transform: uppercase !important;
+     font-size: 16px !important;
+     font-weight: 700 !important;
+     border-bottom: 1px solid #fff !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-content a.wppeta-title:hover {
+     text-decoration: none !important;
+     border-bottom: 0 !important;
+ }
+ 
+ .wppeta-modern-style .wppeta-aligncenter {
+     margin-bottom: 0 !important;
+ }
