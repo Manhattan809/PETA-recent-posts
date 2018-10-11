@@ -1,4 +1,4 @@
-# PETA Recent Posts
+# {PETA} Recent Posts
 
 
 ### Description
